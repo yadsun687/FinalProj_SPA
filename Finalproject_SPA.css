@@ -1,0 +1,27 @@
+
+body{
+    font-family: kanit;
+}
+
+#trollbutton{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 60px;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    font-size:75%;
+    border-color: rgb(148, 148, 148);
+    border-radius: 7%;
+    border-width: 3px;
+    
+}
+#trollbutton:hover{
+    background-color:rgb(247, 219, 184);
+}
+#trollbutton:active{
+    background-color: rgb(247, 219, 184);
+    border-style:outset;
+}
